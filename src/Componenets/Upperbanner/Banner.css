@@ -1,0 +1,12 @@
+.banner-1{
+    display: flex;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    filter: drop-shadow(10px 15px 15px black);
+    margin-bottom: 5%;
+}
+
+.banner-1:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+}
