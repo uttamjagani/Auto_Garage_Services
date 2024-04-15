@@ -12,7 +12,7 @@ app.use(cors());
 
 // connection in db
 
-mongoose.connect('mongodb+srv://uttamjagani126:7122003uttam@cluster0.t0yb9rx.mongodb.net/ags');
+mongoose.connect('mongodb+srv://<Username>:<Password>@cluster0.t0yb9rx.mongodb.net/ags');
 
 app.get('/', (req, res) => {
     res.send('App is Running.');
